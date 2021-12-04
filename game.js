@@ -82,3 +82,12 @@ function startOver(){
   userClickedPattern = [];
 
 }
+
+
+$(".gameShiat").click(function(){
+  if(!gameStart){
+    nextSequence();
+    gameStart = true;
+  }
+});
+                      
