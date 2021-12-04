@@ -67,7 +67,7 @@ if(gamePattern[currentLevel] === userClickedPattern[currentLevel]){
       $("body").addClass("game-over");
       setTimeout(function () {$("body").removeClass("game-over");}, 200);
 
-      $("h1").text("Game Over, Press any key to restart.");
+      $("h1").text("UKINI NAMAN!! Press any key to restart.");
 
       startOver();
     }
